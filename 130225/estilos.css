@@ -20,3 +20,18 @@
     color: #caacf9;
     font-size: 16px;
  }
+ .titulo h1{
+   color: #bc98f3;
+   font-size: 32px;
+   text-align: center;
+}
+
+.titulo h2{
+   color: #bc98f3;
+   font-size: 26px;
+}
+
+.pagina p{
+   color: #d3bcf6;
+   font-size: 20px;
+}
