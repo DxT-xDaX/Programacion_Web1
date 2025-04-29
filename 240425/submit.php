@@ -11,4 +11,11 @@ $contraseña=$_GET['contraseña'];
 echo $nombreUsuario . $carreraUsuario . $no_cuenta . $telefono . $direccion . $correo . $contraseña;
 $insertarConsulta="INSERT INTO persona (nombre_usuario,carrera,no_cuenta,direccion,telefono,email)VALUES($nombreUsuario,$usuarioCarrera,$no_cuenta,$telefono,$direccion,$correo,$contraseña)";
 
+if($conexion -> query($insertarConsulta)=== TRUE){
+header('Location:../create.html');
+  exit();
+}else{
+echo "<h1> Error de consulta </h1>";
+}
+  
 ?>
