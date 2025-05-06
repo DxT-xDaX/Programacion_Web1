@@ -18,7 +18,7 @@ include("./conexion.php")
  <?php
  //Iniciamos php
 
- //Generar ña cpmsulta base a la tabla persona
+ //Generar la consulta base a la tabla persona
  $consulta = "SELECT * FROM persona";
  //Enviar la consulta con ayuda de la conexion
  $resultado= $conecta ->query($consulta);
